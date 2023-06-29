@@ -191,7 +191,8 @@
     </section>
 
     <!-- some additional section -->
-     <section class="features" meta name="viewport" content="width=device-width,initial-scale=1">
+    <main>
+    <section class="features">
             
         <div class="feature">
             <!-- <a href="academicfacility.html"> -->
@@ -224,6 +225,39 @@
         </div>
         
     </section>
+    </main>
+    <style>
+        <style>
+  main {
+    background: #d9d7d5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  div {
+    background: #767775;
+    flex-basis: 100%;
+    height: 100px;
+    margin-bottom: 0.5rem;
+  }
+
+  @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+  }
+</style>
+<main>
+  <div></div>
+  <div></div>
+  <div></div>
+</main>
+    </style>
   
 
     <!-- contact section start -->
