@@ -191,14 +191,14 @@
     </section>
 
     <!-- some additional section -->
-   <section class="features">
+<section class="features">
     <div class="feature">
         <a href="academicfacility.html">
             <img src="carrier.jpg" alt="Feature Image">
         </a>
         <h3>Carrier Objectives</h3>
-        <p>To secure a position as an engineer in a company that specializes in the development of clean energy technologies.
-            To use my strong computer science skills to develop innovative software solutions for a major tech company.
+        <p>To secure a position as an engineer in a company that specializes in the development of clean energy technologies. 
+            To use my strong computer science skills to develop innovative software solutions for a major tech company. 
         </p>
     </div>
     <div class="feature">
@@ -229,7 +229,7 @@
     }
 
     .feature {
-        width: 30%;
+        flex-basis: calc(33.33% - 20px);
         margin-bottom: 20px;
         text-align: center;
     }
@@ -241,10 +241,13 @@
 
     @media (max-width: 768px) {
         .feature {
-            width: 100%;
+            flex-basis: 100%;
         }
     }
 </style>
+
+
+
 
     
     
