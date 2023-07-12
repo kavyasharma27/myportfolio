@@ -6,13 +6,13 @@ function clickImage() {
 
     if (count%2 == 0) {
         image[0].style.transition = "transform 1s";
-        image[0].src = "1copy.png";
+        image[0].src = "Snapchat-672484951.jpg";
         image[0].style.transform = "rotateY(-180deg)";
     }
     else {
         image[0].style.transform = "rotateY(0deg)";
         image[0].style.transition = "transform 1s";
-        image[0].src = "copy2.png";
+        image[0].src = "kavya.jpg";
     }
     count++;
 }
